@@ -1,4 +1,4 @@
-clf
-bar(arange(1,p+1), abs(wSparse))
-bar(arange(1,p+1), -abs(wRidge))
-legend(('Lasso', 'Ridge'))
+plt.clf
+plt.bar(np.arange(1,p+1), abs(xSparse))
+plt.bar(np.arange(1,p+1), -abs(xRidge))
+plt.legend(('Lasso', 'Ridge'))
